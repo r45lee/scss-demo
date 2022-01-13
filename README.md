@@ -1,1 +1,1 @@
-# SCSS Refreshe Demo with Modular CSS principles
+# SCSS Refresher Demo with Modular CSS principles
