@@ -12,6 +12,11 @@ header {
 	top:0;
 	left:-30rem; //set to zero for styling purposes.
 	transition: left 1s ease-in-out;
+	z-index: 90;
+}
+
+.is-active .sliding-nav {
+	left: 0;
 }
 
 nav {
@@ -40,4 +45,20 @@ ul.menu-items {
 			color: colors.$dk-blue;
 		}
 	} // end of a tag
+}
+
+//toggle-icon 
+.toggle-icon {
+	//add css declarations here if needed.
+	span {
+		width: 6rem;
+		height: 1rem;
+		background: colors.$lt-green;
+		display: block;
+		margin-bottom: 0.6rem;
+		border-radius: 10rem;
+		cursor: pointer;
+		position: relative;
+		z-index: 100;
+	}
 }
