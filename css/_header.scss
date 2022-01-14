@@ -1,0 +1,32 @@
+@use 'colors';
+@use 'mixins';
+
+header {
+	position: relative;
+	//background-color: color.$dk-blue;
+}
+
+//menu
+.sliding-nav {
+	position: absolute
+	top:0;
+	left:0;
+	transition: left 1s ease-in-out;
+}
+
+nav {
+	//background-color: color.$dk-blue;
+	min-width: 30rem;
+	height: 100vh;
+
+}
+
+ul.menu-items {
+	margin: 0;
+	//list-items
+	li {
+		text-align: center;
+		border-bottom: 0.2rem solid colors.$lt-green;
+		line-height: 6
+	}
+}

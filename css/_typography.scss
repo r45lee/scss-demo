@@ -1,0 +1,15 @@
+@use 'colors';
+@use 'mixins';
+
+a {
+	display: block;
+	color: colors.$dk-blue;
+	text-decoration: none;
+}
+
+ul, ol,
+ul li,
+ol li {
+	list-style-type: none;
+	padding: 0;
+}

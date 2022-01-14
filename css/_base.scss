@@ -1,0 +1,19 @@
+@use 'mixins' as *; // adding "as *" adds the module to root namespace; no prefixes are needed.
+@ use 'colors' as *; 
+
+//base structure
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.8rem; //18px
+	line-height: 1.5;
+	font-family: sans-serif;
+	color: $dk-blue;
+	background-color: $peach;
+}
+
+.container {
+	padding: 2%;
+}
