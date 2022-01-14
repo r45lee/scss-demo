@@ -10,12 +10,12 @@ header {
 .sliding-nav {
 	position: absolute
 	top:0;
-	left:0;
+	left:-30rem; //set to zero for styling purposes.
 	transition: left 1s ease-in-out;
 }
 
 nav {
-	//background-color: color.$dk-blue;
+	background-color: color.$dk-blue;
 	min-width: 30rem;
 	height: 100vh;
 
@@ -27,6 +27,17 @@ ul.menu-items {
 	li {
 		text-align: center;
 		border-bottom: 0.2rem solid colors.$lt-green;
-		line-height: 6
-	}
+		line-height: 6;
+		&:hover {
+			background-color: colors.$med-green;
+		}
+	} // end of list-items
+
+	a {
+		display: block;
+		color: colors.$peach;
+		&:hover {
+			color: colors.$dk-blue;
+		}
+	} // end of a tag
 }
